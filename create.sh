@@ -42,7 +42,7 @@ function create() {
         git init
         touch README.md
         git add README.md
-        git commit -m "first commit"
+        git commit -m "Initial commit"
         git remote add origin https://github.com/$USERNAME/$REPONAME.git
         git push -u origin master
         printf "\n${grn}Project ${blu}${REPONAME}${grn} created successfully.${end} \n"
